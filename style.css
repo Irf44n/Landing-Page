@@ -46,6 +46,14 @@ a, .subtext, .footer {
 #main-title {
     font-weight:bolder;
     font-size: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+.subtext {
+    padding: 0;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .logo {
@@ -98,17 +106,18 @@ button.x {
 
 .quote {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     font-style: italic;
-    color: #1f2937;
+    color: #324257;
     width: 600px;
-    margin: 0;
+    margin: 3px;
 }
 
 #quotee {
     font-weight: 800;
-    font-size: 18px;
+    font-size: 20px;
     text-align: right;
+    color: #1f2937;
 }
 
 .main {
@@ -135,7 +144,7 @@ button.x {
     height: 150px;
     width: 150px;
     border-radius: 8px;
-    border: solid #3882f6 4px
+    border: solid #3882f6 4px;
 }
 
 .card {
@@ -159,4 +168,22 @@ button.x {
 .information {
     padding-top: 50px;
     padding-bottom: 80px;
+}
+
+.hero-content img {
+    background-color:#5b6c85;
+    width: 500px;
+    height: 250px;
+
+}
+
+.hero-content {
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+    justify-content: center;
+}
+
+.content {
+    align-self: center;
 }
