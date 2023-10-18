@@ -1,3 +1,162 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px;
+    margin: 0;
+}
+
+.right {
+    display: flex;
+    gap: 22px;
+    padding: 4px;
+    margin: 0;
+}
+
+.hero, .footer {
+    background-color:#1f2937;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, .subtext, .footer {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#main-title, .logo {
+    color: #f9faf8;
+}
+
+#main-title {
+    font-weight:bolder;
+    font-size: 48px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 28px;
+    border: none;
+}
+
+#sub-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+button.x {
+    border: white solid 2px;
+}
+
+.box {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 80px 160px;
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quote-section {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: #1f2937;
+    width: 600px;
+    margin: 0;
+}
+
+#quotee {
+    font-weight: 800;
+    font-size: 18px;
+    text-align: right;
+}
+
+.main {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#sign {
+    color:#e5e7eb;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.align {
+    display: flex;
+    width: 600px;
+    justify-content: flex-end;
+}
+
+.first img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: solid #3882f6 4px
+}
+
+.card {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.first p {
+    width: 150px;
+    color: #5b6c85;
+}
+
+.information {
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
