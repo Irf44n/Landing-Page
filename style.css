@@ -26,7 +26,7 @@ body {
 }
 
 .hero, .footer {
-    background-color:#1f2937;
+    background: linear-gradient(#1f2937,#2b5388);
 }
 
 ul {
